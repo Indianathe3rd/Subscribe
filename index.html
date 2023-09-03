@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <form action="/">
+    <section class="user-detail">
+     <h1>Stay Updated!</h1> 
+      <p>Join 60000+ product managers recieving monthly updates on:</p>
+    
+        <ul>
+          <li>product descovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>and many more</li>
+        </ul>
+      <label for="email" ><h5>EMail Address</h5></label>
+         <small>valid email required</small> 
+          <input class='email'  type="email" placeholder="email@company.com">
+        <button type="button" class="submit">
+        Subscribe to monthly newsletter
+      </button>
+    </section>
+     <section class="svg">
+        <img src="76187630.jpg">
+     </section>
+  
+  </form>
+    
+   <dialog  id="modal">
+      <i class="fa-solid fa-circle-check"></i>
+      <h2>Thanks for subscribing!</h2>
+      <p>A confirmation email has been sent to <span id='emailId'>inde@gmail.com</span> Please open it and click the button inside to confirm your subscription</p>
+      <button class="dismiss-btn">Dismiss message</button>
+    </dialog>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+</body>
+   <script src="script.js"></script>
+
+</html>
